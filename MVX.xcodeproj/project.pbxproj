@@ -19,6 +19,16 @@
 		183DCC0F1F4BC63E00C7F9C1 /* contenCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DCC0E1F4BC63E00C7F9C1 /* contenCellModel.m */; };
 		183DCC531F4C300E00C7F9C1 /* OtherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DCC511F4C300E00C7F9C1 /* OtherController.m */; };
 		183DCC541F4C300E00C7F9C1 /* OtherController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC521F4C300E00C7F9C1 /* OtherController.xib */; };
+		183DCC5C1F4D16A100C7F9C1 /* icon0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC561F4D16A100C7F9C1 /* icon0@2x.png */; };
+		183DCC5D1F4D16A100C7F9C1 /* icon0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC571F4D16A100C7F9C1 /* icon0@3x.png */; };
+		183DCC5E1F4D16A100C7F9C1 /* icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC581F4D16A100C7F9C1 /* icon1@2x.png */; };
+		183DCC5F1F4D16A100C7F9C1 /* icon1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC591F4D16A100C7F9C1 /* icon1@3x.png */; };
+		183DCC601F4D16A100C7F9C1 /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC5A1F4D16A100C7F9C1 /* like@2x.png */; };
+		183DCC611F4D16A100C7F9C1 /* like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC5B1F4D16A100C7F9C1 /* like@3x.png */; };
+		183DCC671F4D255900C7F9C1 /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DCC661F4D255900C7F9C1 /* UserInfoView.m */; };
+		183DCC6B1F4D291500C7F9C1 /* UserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC6A1F4D291500C7F9C1 /* UserInfoView.xib */; };
+		183DCC741F4D55F000C7F9C1 /* BlogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DCC721F4D55F000C7F9C1 /* BlogCell.m */; };
+		183DCC751F4D55F000C7F9C1 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183DCC731F4D55F000C7F9C1 /* BlogCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +72,18 @@
 		183DCC501F4C300E00C7F9C1 /* OtherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherController.h; sourceTree = "<group>"; };
 		183DCC511F4C300E00C7F9C1 /* OtherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherController.m; sourceTree = "<group>"; };
 		183DCC521F4C300E00C7F9C1 /* OtherController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherController.xib; sourceTree = "<group>"; };
+		183DCC561F4D16A100C7F9C1 /* icon0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon0@2x.png"; sourceTree = "<group>"; };
+		183DCC571F4D16A100C7F9C1 /* icon0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon0@3x.png"; sourceTree = "<group>"; };
+		183DCC581F4D16A100C7F9C1 /* icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@2x.png"; sourceTree = "<group>"; };
+		183DCC591F4D16A100C7F9C1 /* icon1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@3x.png"; sourceTree = "<group>"; };
+		183DCC5A1F4D16A100C7F9C1 /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		183DCC5B1F4D16A100C7F9C1 /* like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@3x.png"; sourceTree = "<group>"; };
+		183DCC651F4D255900C7F9C1 /* UserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
+		183DCC661F4D255900C7F9C1 /* UserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
+		183DCC6A1F4D291500C7F9C1 /* UserInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoView.xib; sourceTree = "<group>"; };
+		183DCC711F4D55F000C7F9C1 /* BlogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogCell.h; sourceTree = "<group>"; };
+		183DCC721F4D55F000C7F9C1 /* BlogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogCell.m; sourceTree = "<group>"; };
+		183DCC731F4D55F000C7F9C1 /* BlogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,7 @@
 				183DCBEE1F4BBEF100C7F9C1 /* MVXTests */,
 				183DCBF91F4BBEF100C7F9C1 /* MVXUITests */,
 				183DCBD31F4BBEF100C7F9C1 /* Products */,
+				183DCC761F4D5BD000C7F9C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +135,7 @@
 		183DCBD41F4BBEF100C7F9C1 /* MVX */ = {
 			isa = PBXGroup;
 			children = (
+				183DCC551F4D165B00C7F9C1 /* Resource */,
 				183DCC4C1F4C2FA800C7F9C1 /* Controller */,
 				183DCC0C1F4BC60800C7F9C1 /* Model */,
 				183DCC081F4BC4A500C7F9C1 /* View */,
@@ -159,6 +183,12 @@
 			children = (
 				183DCC091F4BC4F700C7F9C1 /* contentCell.h */,
 				183DCC0A1F4BC4F700C7F9C1 /* contentCell.m */,
+				183DCC651F4D255900C7F9C1 /* UserInfoView.h */,
+				183DCC661F4D255900C7F9C1 /* UserInfoView.m */,
+				183DCC6A1F4D291500C7F9C1 /* UserInfoView.xib */,
+				183DCC711F4D55F000C7F9C1 /* BlogCell.h */,
+				183DCC721F4D55F000C7F9C1 /* BlogCell.m */,
+				183DCC731F4D55F000C7F9C1 /* BlogCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -180,6 +210,26 @@
 				183DCC521F4C300E00C7F9C1 /* OtherController.xib */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		183DCC551F4D165B00C7F9C1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				183DCC561F4D16A100C7F9C1 /* icon0@2x.png */,
+				183DCC571F4D16A100C7F9C1 /* icon0@3x.png */,
+				183DCC581F4D16A100C7F9C1 /* icon1@2x.png */,
+				183DCC591F4D16A100C7F9C1 /* icon1@3x.png */,
+				183DCC5A1F4D16A100C7F9C1 /* like@2x.png */,
+				183DCC5B1F4D16A100C7F9C1 /* like@3x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		183DCC761F4D5BD000C7F9C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,9 +338,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183DCC601F4D16A100C7F9C1 /* like@2x.png in Resources */,
 				183DCBE51F4BBEF100C7F9C1 /* LaunchScreen.storyboard in Resources */,
+				183DCC611F4D16A100C7F9C1 /* like@3x.png in Resources */,
+				183DCC5D1F4D16A100C7F9C1 /* icon0@3x.png in Resources */,
 				183DCBE21F4BBEF100C7F9C1 /* Assets.xcassets in Resources */,
+				183DCC751F4D55F000C7F9C1 /* BlogCell.xib in Resources */,
 				183DCC541F4C300E00C7F9C1 /* OtherController.xib in Resources */,
+				183DCC6B1F4D291500C7F9C1 /* UserInfoView.xib in Resources */,
+				183DCC5F1F4D16A100C7F9C1 /* icon1@3x.png in Resources */,
+				183DCC5C1F4D16A100C7F9C1 /* icon0@2x.png in Resources */,
+				183DCC5E1F4D16A100C7F9C1 /* icon1@2x.png in Resources */,
 				183DCBE01F4BBEF100C7F9C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,10 +374,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183DCC671F4D255900C7F9C1 /* UserInfoView.m in Sources */,
 				183DCC0F1F4BC63E00C7F9C1 /* contenCellModel.m in Sources */,
 				183DCBDD1F4BBEF100C7F9C1 /* ViewController.m in Sources */,
 				183DCC531F4C300E00C7F9C1 /* OtherController.m in Sources */,
 				183DCBDA1F4BBEF100C7F9C1 /* AppDelegate.m in Sources */,
+				183DCC741F4D55F000C7F9C1 /* BlogCell.m in Sources */,
 				183DCBD71F4BBEF100C7F9C1 /* main.m in Sources */,
 				183DCC0B1F4BC4F700C7F9C1 /* contentCell.m in Sources */,
 			);
@@ -555,6 +615,7 @@
 				183DCC011F4BBEF100C7F9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183DCC021F4BBEF100C7F9C1 /* Build configuration list for PBXNativeTarget "MVXTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +624,7 @@
 				183DCC041F4BBEF100C7F9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183DCC051F4BBEF100C7F9C1 /* Build configuration list for PBXNativeTarget "MVXUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +633,7 @@
 				183DCC071F4BBEF100C7F9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

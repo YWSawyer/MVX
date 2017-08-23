@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "contentCell.h"
 #import "contenCellModel.h"
+#import "OtherController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,ContentCellDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tabView;
@@ -96,6 +97,8 @@
 
 - (void)cellDidSelectContetType:(NSString *)contentType buttonIndex:(NSInteger)index {
     NSLog(@"contentType:%@  buttonIndex:%ld",contentType,(long)index);
+    OtherController *vc = [OtherController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

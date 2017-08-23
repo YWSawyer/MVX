@@ -7,8 +7,13 @@
 //
 
 #import "OtherController.h"
+#import "UserInfoView.h"
+#import "BlogCell.h"
 
-@interface OtherController ()
+@interface OtherController ()<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UIView *UserInfoSuperView;
+
+@property (weak, nonatomic) IBOutlet UITableView *blogTabView;
 
 @end
 
@@ -17,11 +22,44 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self setupUI];
 }
 
+
+- (void)setupUI {
+    self.blogTabView.tableFooterView = [UIView new];
+    self.blogTabView.estimatedRowHeight = 50;
+//    self.UserInfoSuperView.autoresizesSubviews = YES;
+//    self.UserInfoSuperView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin;
+    UserInfoView *userInfoView = [[[NSBundle mainBundle]loadNibNamed:@"UserInfoView" owner:nil options:nil]lastObject];
+    userInfoView.frame = self.UserInfoSuperView.bounds;
+    [self.UserInfoSuperView addSubview:userInfoView];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark tabview delegate 
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 4;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSString *cellIdentifier = @"blogCell";
+    BlogCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (!cell) {
+        cell = [[[NSBundle mainBundle]loadNibNamed:@"BlogCell" owner:nil options:nil]lastObject];
+        cell.blogTitleLbl.text = @"tsyidghuggggggggggggoooooooosgadfgsdfgjaedfjb;oaev;baSNRiaRSbijopzsdjviAewpojmAVPpdofmbjvpadsofjbvap;";
+    }
+    return cell;
 }
 
 /*
