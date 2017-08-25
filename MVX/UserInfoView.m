@@ -29,6 +29,7 @@
 */
 
 
+
 - (void)setName:(NSString *)Name {
     self.userName.text = Name;
 }
@@ -36,5 +37,9 @@
 
 - (void)setPerInfo:(NSString *)perInfo {
     self.personalInfo.text = perInfo;
+}
+
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    return self.userName;
 }
 @end

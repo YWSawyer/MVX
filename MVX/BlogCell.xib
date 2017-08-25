@@ -20,17 +20,17 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlogTitle test testssssssssssssssssssssssss" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40H-Mi-Zhe">
-                        <rect key="frame" x="18" y="26" width="100" height="101.5"/>
+                        <rect key="frame" x="18" y="26" width="96" height="101.5"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="100" id="2cD-jB-xK5"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="2cD-jB-xK5"/>
                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1000" id="t0D-x9-b8Z"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="摘要：blogSummery0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bu-pz-vxs">
-                        <rect key="frame" x="138" y="69.5" width="122.5" height="14.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="摘要：blogSummery0" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bu-pz-vxs">
+                        <rect key="frame" x="134" y="69.5" width="122.5" height="14.5"/>
                         <constraints>
                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="LX6-CB-SDw"/>
                             <constraint firstAttribute="height" constant="14.5" id="Otu-fh-4eI"/>

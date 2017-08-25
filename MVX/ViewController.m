@@ -19,6 +19,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -26,7 +27,6 @@
     self.tabView.tableHeaderView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 1, 1)];
 //    self.automaticallyAdjustsScrollViewInsets = NO;
 }
-
 
 - (NSMutableArray *)dataArray {
     if (!_dataArray) {
@@ -85,20 +85,17 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return 1;
 }
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    return 60;
-//}
-
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
 }
+
 #pragma ContentCellDelegate 
 
 - (void)cellDidSelectContetType:(NSString *)contentType buttonIndex:(NSInteger)index {
     NSLog(@"contentType:%@  buttonIndex:%ld",contentType,(long)index);
-    OtherController *vc = [OtherController new];
-    [self.navigationController pushViewController:vc animated:YES];
+//    [self performSegueWithIdentifier:@"otherInfo" sender:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

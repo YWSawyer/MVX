@@ -25,12 +25,10 @@
     [self setupUI];
 }
 
-
 - (void)setupUI {
     self.blogTabView.tableFooterView = [UIView new];
     self.blogTabView.estimatedRowHeight = 50;
-//    self.UserInfoSuperView.autoresizesSubviews = YES;
-//    self.UserInfoSuperView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin;
+    
     UserInfoView *userInfoView = [[[NSBundle mainBundle]loadNibNamed:@"UserInfoView" owner:nil options:nil]lastObject];
     userInfoView.frame = self.UserInfoSuperView.bounds;
     [self.UserInfoSuperView addSubview:userInfoView];
@@ -57,7 +55,15 @@
     BlogCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (!cell) {
         cell = [[[NSBundle mainBundle]loadNibNamed:@"BlogCell" owner:nil options:nil]lastObject];
+        
+    }
+    if (indexPath.row == 0) {
         cell.blogTitleLbl.text = @"tsyidghuggggggggggggoooooooosgadfgsdfgjaedfjb;oaev;baSNRiaRSbijopzsdjviAewpojmAVPpdofmbjvpadsofjbvap;";
+        
+    }else if(indexPath.row == 1){
+         cell.blogTitleLbl.text = @"tsybaSNRiaRSbijopzsdjviAewpojmAVPpdofmbjvpadsofjbvap;";
+    }else{
+         cell.blogTitleLbl.text = @"tsyidghuggggggggggggoooooooosghuggggggggggggoooooooosgadfgsdfgjaedfjb;oaev;baSNRiaRSbijopzsdjviAewpogadfgsdfgjaedfjb;oaev;baSNRiaRSbijopzsdjviAewpojmAVPpdofmbjvpadsofjbvap;";
     }
     return cell;
 }
